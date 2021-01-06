@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Amatic+SC:wght@700&display=swap');
+*{
+    background-color: #a8efff;
+}
+
+.bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    border: 1px black solid;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive;
+    background-color: #9affd3;
+}
+
+table, div{
+    font-family: 'Aguafina Script', cursive;
+    color: #4a87ff;
+}
+
+table, th, tr, td{
+    margin: auto;
+    border: 2px solid black;
+    border-spacing: 5px;
+    padding:15px;
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+th{
+    background-color: #f8f886;
+    color: #4a87ff;
+    font-size: 40px;
+}  
+
+td{
+    background-color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#key {
+    text-align: center;
+    font-size: 30px;
+}
+
+#comp{
+    text-align: center;
+    font-size: 30px;
+}
